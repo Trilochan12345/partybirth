@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking Successful</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container text-center mt-5">
+    <div class="alert alert-success p-5 shadow">
+        <h2>🎉 Booking Successful!</h2>
+        <p>Your event has been successfully booked.</p>
+
+        <a href="{% url 'booknow' %}" class="btn btn-primary mt-3">Book Another Event</a>
+        <a href="{% url 'booking_details' %}" class="btn btn-secondary mt-3">View All Bookings</a>
+    </div>
+</div>
+
+</body>
+</html>
